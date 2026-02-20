@@ -1,17 +1,22 @@
-# notification_demo
+# Notification Demo (Flutter)
 
-A new Flutter project.
+## Deskripsyon
+Aplikasyon sa a demontre itilizasyon flutter_local_notifications pou voye diferan tip notifikasyon:
 
-## Getting Started
+- Immediate Notification
+- Scheduled Notification (5 sec)
+- Repeating Notification (1 min)
+- Big Text Notification
+- Cancel All Notifications
 
-This project is a starting point for a Flutter application.
+## Teknoloji yo itilize
+- Flutter
+- flutter_local_notifications
+- timezone
 
-A few resources to get you started if this is your first Flutter project:
+## Nòt sou Android 14/15 Emulator
+Scheduled ak Repeating notifications ka pa parèt sou Android 14/15 emulator
+akòz restriksyon sistèm nan sou exact alarms.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Rekòmandasyon:
+Teste sou Android 11/12 emulator oswa sou aparèy reyèl pou verifye scheduled/repeating.
